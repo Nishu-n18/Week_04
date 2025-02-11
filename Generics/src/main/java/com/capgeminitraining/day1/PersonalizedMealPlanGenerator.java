@@ -155,6 +155,7 @@ class MealPlanner {
     }
 }
 
+
 // Main Class for Execution
 public class PersonalizedMealPlanGenerator {
     public static void main(String[] args) {
