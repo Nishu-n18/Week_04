@@ -87,7 +87,6 @@ class KetoMeal implements MealPlan {
         System.out.println("Keto Meal: " + mealName + ", Calories: " + calories);
     }
 }
-
 // High Protein Meal
 class HighProteinMeal implements MealPlan {
     private String mealName;
