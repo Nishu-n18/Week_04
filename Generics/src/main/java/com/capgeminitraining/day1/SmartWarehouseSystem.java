@@ -77,6 +77,7 @@ class Storage <T extends WareHouseItem>{
         }
     }
 }
+
 public class SmartWarehouseSystem {
     public static void main(String[] args) {
         // Creating storage instances for different item types
