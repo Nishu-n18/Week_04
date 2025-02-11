@@ -11,7 +11,6 @@ public class UniversityCourseManagementTest {
     private Department<ExamCourse> scienceDepartment;
     private Department<AssignmentCourse> artsDepartment;
     private Department<ResearchCourse> engineeringDepartment;
-
     private ExamCourse physicsExam;
     private AssignmentCourse historyAssignment;
     private ResearchCourse aiResearch;
