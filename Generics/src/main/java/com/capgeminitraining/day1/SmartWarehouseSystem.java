@@ -92,7 +92,7 @@ public class SmartWarehouseSystem {
         groceriesStorage.addItem(new Groceries("Bread", "2024-12-15"));
 
         furnitureStorage.addItem(new Furniture("Chair", "Wood"));
-        furnitureStorage.addItem(new Furniture("Table", "Glass"));
+        furnitureStorage.addItem(new Furniture("Almirah", "Glass"));
 
         // Displaying all stored items
         System.out.println("Electronics:");
