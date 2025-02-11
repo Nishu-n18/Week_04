@@ -13,7 +13,6 @@ public class ResumeScreeningTest {
     private DataScientist ds;
     private ProductManager pm;
 
-
     @BeforeEach
     void setUp() {
         screeningSystem = new ResumeScreening();
