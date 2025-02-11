@@ -2,6 +2,7 @@ package com.capgeminitraining.day1;
 
 import java.util.ArrayList;
 import java.util.List;
+
 // Abstract Product Class
 abstract class Product<T> {
     private String name;
