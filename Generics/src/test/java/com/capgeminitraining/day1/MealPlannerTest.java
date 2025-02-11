@@ -15,6 +15,7 @@ public class MealPlannerTest {
     private KetoMeal ketoMeal;
     private HighProteinMeal highProteinMeal;
 
+    
     @BeforeEach
     void setUp() {
         mealPlanner = new MealPlanner();
