@@ -17,7 +17,7 @@ public class SmartWareHouseSystemTest {
         Groceries milk = new Groceries("Milk", "2025-01-01");
         assertEquals("Milk", milk.getName());
     }
-    
+
     @Test
     void testFurnitureCreation() {
         Furniture chair = new Furniture("Chair", "Wood");

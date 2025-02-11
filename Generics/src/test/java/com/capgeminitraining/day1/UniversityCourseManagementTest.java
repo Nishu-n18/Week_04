@@ -41,8 +41,7 @@ public class UniversityCourseManagementTest {
         assertEquals("Dr. Johnson", aiResearch.getInstructor());
         assertEquals("Artificial Intelligence", aiResearch.getResearchArea());
     }
-
-
+    
     @Test
     void testWildcardMethod() {
         List<CourseType> allCourses = new ArrayList<>();
