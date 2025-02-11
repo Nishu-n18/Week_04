@@ -18,7 +18,7 @@ public class SmartWareHouseSystemTest {
         assertEquals("Milk", milk.getName());
     }
 
-    
+
     @Test
     void testFurnitureCreation() {
         Furniture chair = new Furniture("Chair", "Wood");
