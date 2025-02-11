@@ -4,7 +4,6 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-
 public class OnlineMarketplaceTest {
     private ProductCatalog<Book> bookCatalog;
     private ProductCatalog<Clothing> clothingCatalog;
