@@ -39,6 +39,8 @@ class ExamCourse extends CourseType {
     }
 }
 
+
+
 // Assignment-Based Course
 
 class AssignmentCourse extends CourseType {
