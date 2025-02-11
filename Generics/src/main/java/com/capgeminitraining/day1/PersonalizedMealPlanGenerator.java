@@ -101,7 +101,6 @@ class HighProteinMeal implements MealPlan {
     public String getMealName() {
         return mealName;
     }
-
     @Override
     public int getCalories() {
         return calories;
