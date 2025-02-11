@@ -1,4 +1,4 @@
-package org.example;
+package com.capgeminitraining.day1;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,18 +11,14 @@ abstract class CourseType {
         this.courseName = courseName;
         this.instructor = instructor;
     }
-
     public String getCourseName() {
         return courseName;
     }
-
     public String getInstructor() {
         return instructor;
     }
-
     public abstract void displayCourseDetails();
 }
-
 // Exam-Based Course
 class ExamCourse extends CourseType {
     private int examWeightage; // Percentage of final grade from exams
@@ -35,7 +31,6 @@ class ExamCourse extends CourseType {
     public int getExamWeightage() {
         return examWeightage;
     }
-
     @Override
     public void displayCourseDetails() {
         System.out.println("Exam-Based Course: " + getCourseName() +
@@ -48,7 +43,6 @@ class ExamCourse extends CourseType {
 
 class AssignmentCourse extends CourseType {
     private int assignmentCount;
-
     public AssignmentCourse(String courseName, String instructor, int assignmentCount) {
         super(courseName, instructor);
         this.assignmentCount = assignmentCount;
@@ -57,7 +51,6 @@ class AssignmentCourse extends CourseType {
     public int getAssignmentCount() {
         return assignmentCount;
     }
-
     @Override
     public void displayCourseDetails() {
         System.out.println("Assignment-Based Course: " + getCourseName() +
@@ -69,7 +62,6 @@ class AssignmentCourse extends CourseType {
 // Research-Based Course
 class ResearchCourse extends CourseType {
     private String researchArea;
-
     public ResearchCourse(String courseName, String instructor, String researchArea) {
         super(courseName, instructor);
         this.researchArea = researchArea;
@@ -78,7 +70,6 @@ class ResearchCourse extends CourseType {
     public String getResearchArea() {
         return researchArea;
     }
-
     @Override
     public void displayCourseDetails() {
         System.out.println("Research-Based Course: " + getCourseName() +
@@ -90,15 +81,12 @@ class ResearchCourse extends CourseType {
 // Generic Course Class
 class Course<T extends CourseType> {
     private T courseType;
-
     public Course(T courseType) {
         this.courseType = courseType;
     }
-
     public T getCourseType() {
         return courseType;
     }
-
     public void display() {
         courseType.displayCourseDetails();
     }
@@ -108,19 +96,15 @@ class Course<T extends CourseType> {
 class Department<T extends CourseType> {
     private String departmentName;
     private List<Course<T>> courses = new ArrayList<>();
-
     public Department(String departmentName) {
         this.departmentName = departmentName;
     }
-
     public void addCourse(Course<T> course) {
         courses.add(course);
     }
-
     public List<Course<T>> getCourses() {
         return courses;
     }
-
     public void displayCourses() {
         System.out.println("\nDepartment: " + departmentName);
         for (Course<T> course : courses) {

@@ -1,4 +1,4 @@
-package org.example;
+package com.capgeminitraining.day1;
 
 import java.util.ArrayList;
 import java.util.List;

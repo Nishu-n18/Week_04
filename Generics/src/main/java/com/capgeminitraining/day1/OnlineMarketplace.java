@@ -1,9 +1,7 @@
-package org.example;
+package com.capgeminitraining.day1;
 
 import java.util.ArrayList;
 import java.util.List;
-
-
 // Abstract Product Class
 abstract class Product<T> {
     private String name;
@@ -19,40 +17,32 @@ abstract class Product<T> {
     public String getName() {
         return name;
     }
-
     public double getPrice() {
         return price;
     }
-
     public String getCategory() {
         return category;
     }
-
     public void setPrice(double price) {
         this.price = price;
     }
-
     public abstract void displayDetails();
 }
-
 // Book Class
 class Book extends Product<String> {
     public Book(String name, double price, String category) {
         super(name, price, category);
     }
-
     @Override
     public void displayDetails() {
         System.out.println("Book: " + getName() + ", Price: $" + getPrice() + ", Category: " + getCategory());
     }
 }
-
 // Clothing Class
 class Clothing extends Product<String> {
     public Clothing(String name, double price, String category) {
         super(name, price, category);
     }
-
     @Override
     public void displayDetails() {
         System.out.println("Clothing: " + getName() + ", Price: $" + getPrice() + ", Category: " + getCategory());
@@ -64,25 +54,20 @@ class Gadget extends Product<String> {
     public Gadget(String name, double price, String category) {
         super(name, price, category);
     }
-
     @Override
     public void displayDetails() {
         System.out.println("Gadget: " + getName() + ", Price: $" + getPrice() + ", Category: " + getCategory());
     }
 }
-
 // Generic Product Catalog
 class ProductCatalog<T extends Product<?>> {
     private List<T> products = new ArrayList<>();
-
     public void addProduct(T product) {
         products.add(product);
     }
-
     public List<T> getProducts() {
         return products;
     }
-
     public static <T extends Product<?>> void applyDiscount(T product, double percentage) {
         double discountAmount = product.getPrice() * (percentage / 100);
         product.setPrice(product.getPrice() - discountAmount);
