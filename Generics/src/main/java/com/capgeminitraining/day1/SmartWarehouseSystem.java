@@ -11,7 +11,6 @@ abstract class WareHouseItem{
     public String getName() {
         return name;
     }
-
     public abstract void displayDetails();
 }
 class Electronics extends WareHouseItem{
