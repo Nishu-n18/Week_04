@@ -15,7 +15,6 @@ public class FrequencyOfElement {
         }
         return frequency;
     }
-
     public static void main(String[] args) {
         List<String> fruits = Arrays.asList("apple","banana","apple","orange");
         Map<String,Integer> result = countFrequency(fruits);
