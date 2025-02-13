@@ -1,4 +1,4 @@
-package org.example.RemainingQuestions;
+package com.capgeminitraining.day2.extraquestions;
 
 import java.util.*;
 
