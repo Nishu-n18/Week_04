@@ -19,7 +19,6 @@ public class BinaryNumberGenerator {
         }
         return result;
     }
-
     public static void main(String[] args) {
         int N = 5;
         List<String> binaryNumbers = generateBinaryNumbers(N);
