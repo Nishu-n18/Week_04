@@ -64,7 +64,6 @@ public class CircularBuffer {
         }
         System.out.println();
     }
-
     public static void main(String[] args) {
         CircularBuffer cb = new CircularBuffer(3);
 
