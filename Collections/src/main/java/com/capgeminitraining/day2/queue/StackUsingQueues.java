@@ -33,7 +33,6 @@ public class StackUsingQueues {
 
         return topElement;
     }
-
     // Top operation
     public int top() {
         if (queue1.isEmpty()) {
