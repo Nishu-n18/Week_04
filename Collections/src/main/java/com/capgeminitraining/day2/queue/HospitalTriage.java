@@ -17,7 +17,6 @@ class Patient implements Comparable<Patient> {
 
         return Integer.compare(other.severity, this.severity); // Descending order
     }
-
     @Override
     public String toString() {
 
