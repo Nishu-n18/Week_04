@@ -1,4 +1,4 @@
-package org.example.MapInterface;
+package com.capgeminitraining.day2.mapinterface;
 
 import java.io.*;
 import java.util.*;
