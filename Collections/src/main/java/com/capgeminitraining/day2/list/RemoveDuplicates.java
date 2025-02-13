@@ -3,7 +3,6 @@ package com.capgeminitraining.day2.list;
 import java.util.*;
 
 public class RemoveDuplicates {
-
     private static List<Integer> removeDuplicate(List<Integer> input) {
         Set<Integer> set = new HashSet<>();
         List<Integer> answer = new ArrayList<>();
