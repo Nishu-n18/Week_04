@@ -21,7 +21,6 @@ public class NthElementFromEnd {
             first.next();
             second.next();
         }
-
         return second.next(); // Nth from the end
     }
 
