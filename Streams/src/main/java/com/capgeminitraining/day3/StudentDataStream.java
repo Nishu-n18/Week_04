@@ -1,4 +1,4 @@
-package org.example;
+package com.capgeminitraining.day3;
 
 import java.io.*;
 
