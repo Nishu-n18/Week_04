@@ -3,7 +3,6 @@ package com.capgeminitraining.day2.list;
 import java.util.*;
 
 public class ReverseList {
-
     // Method to reverse a List without built-in reverse method
     public static <T> void reverseList(List<T> list) {
         int left = 0, right = list.size() - 1;
