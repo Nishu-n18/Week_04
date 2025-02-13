@@ -8,7 +8,6 @@ public class SetToSortedList {
         Collections.sort(list); // Sort the list in ascending order
         return list;
     }
-
     public static void main(String[] args) {
         Set<Integer> set = new HashSet<>(Arrays.asList(5, 3, 9, 1));
 
