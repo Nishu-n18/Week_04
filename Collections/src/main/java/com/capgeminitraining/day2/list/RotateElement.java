@@ -17,7 +17,6 @@ public class RotateElement {
 
         return rotatedList;
     }
-
     public static void main(String[] args) {
         List<Integer> elements = Arrays.asList(10,20,30,40,50);
 
