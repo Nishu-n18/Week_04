@@ -8,7 +8,6 @@ public class SetOperations {
         set.addAll(set2); // Add all elements from set2
         return set;
     }
-
     public static Set<Integer> intersection(Set<Integer> set1, Set<Integer> set2) {
         Set<Integer> set = new HashSet<>(set1);
         set.retainAll(set2); // Keep only common elements
