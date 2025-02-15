@@ -1,6 +1,6 @@
-package org.example.JunitQuestionsTest;
+package com.junittesting;
 
-import org.example.JunitQuestions.PasswordValidator;
+import com.capgeminitraining.day5.junit.PasswordValidator;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
