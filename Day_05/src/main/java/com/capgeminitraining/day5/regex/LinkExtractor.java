@@ -1,8 +1,8 @@
-package org.example;
+package com.capgeminitraining.day5.regex;
 
 import java.util.regex.*;
 
-public class LinkExtractor {
+public class LinkExtractor{
     public static void main(String[] args) {
         String text = "Visit https://www.google.com and http://example.org for more info visit https://github.com/kapiltiwarii/WEEK_FOUR ";
 
