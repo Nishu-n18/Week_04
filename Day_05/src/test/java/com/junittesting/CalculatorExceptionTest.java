@@ -1,6 +1,6 @@
 package com.junittesting;
 
-import org.example.JunitQuestions.CalculatorException;
+import com.capgeminitraining.day5.junit.CalculatorException;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
