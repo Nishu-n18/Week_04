@@ -1,7 +1,7 @@
-package org.example;
+package com.capgeminitraining.day5.regex;
 import java.util.*;
 
-public class RepeatingWordsFinder {
+public class RepeatingWordsFinder{
     public static void main(String[] args) {
         String text = "This is is a repeated repeated word test repeated.";
 
