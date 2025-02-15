@@ -1,4 +1,4 @@
-package org.example;
+package com.capgeminitraining.day5.regex;
 
 public class SpaceReducer {
     public static void main(String[] args) {
