@@ -1,9 +1,8 @@
-package org.example;
+package com.capgeminitraining.day5.regex;
 
 import java.util.regex.*;
-import java.util.*;
 
-public class DateExtractor {
+public class DateExtract {
     public static void main(String[] args) {
         String text = "The events are scheduled for 12/05/2023, 15/08/2024, and 29/02/2020.";
 
