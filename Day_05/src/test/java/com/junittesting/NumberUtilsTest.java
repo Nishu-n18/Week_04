@@ -1,6 +1,6 @@
-package org.example.JunitQuestionsTest;
+package com.junittesting;
 
-import org.example.JunitQuestions.NumberUtils;
+import com.capgeminitraining.day5.junit.NumberUtils;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
