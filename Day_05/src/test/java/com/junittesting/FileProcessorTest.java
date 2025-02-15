@@ -1,6 +1,6 @@
-package org.example.JunitQuestionsTest;
+package com.junittesting;
 
-import org.example.JunitQuestions.FileProcessor;
+import com.capgeminitraining.day5.junit.FileProcessor;
 import org.junit.jupiter.api.*;
 import java.io.*;
 import java.nio.file.*;
