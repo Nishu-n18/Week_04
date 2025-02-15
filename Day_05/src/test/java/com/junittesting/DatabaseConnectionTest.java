@@ -1,6 +1,6 @@
-package org.example.JunitQuestionsTest;
+package com.junittesting;
 
-import org.example.JunitQuestions.DatabaseConnection;
+import com.capgeminitraining.day5.junit.DatabaseConnection;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
