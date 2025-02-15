@@ -1,4 +1,4 @@
-package org.example.JunitQuestions;
+package com.capgeminitraining.day5.junit;
 
 import java.io.*;
 import java.nio.file.*;
