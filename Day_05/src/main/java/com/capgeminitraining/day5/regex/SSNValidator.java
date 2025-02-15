@@ -1,4 +1,4 @@
-package org.example;
+package com.capgeminitraining.day5.regex;
 
 import java.util.regex.*;
 
