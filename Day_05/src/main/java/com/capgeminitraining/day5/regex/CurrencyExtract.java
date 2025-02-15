@@ -1,8 +1,8 @@
-package org.example;
+package com.capgeminitraining.day5.regex;
 
 import java.util.regex.*;
 
-public class CurrencyExtractor {
+public class CurrencyExtract{
     public static void main(String[] args) {
         String text = "The price is $45.99, and the discount is 10.50.";
 
