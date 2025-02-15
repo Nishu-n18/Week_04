@@ -1,8 +1,8 @@
-package org.example;
+package com.capgeminitraining.day5.regex;
 
 import java.util.regex.*;
 
-public class CreditCardValidator {
+public class CreditCardValidator{
     public static void main(String[] args) {
         String[] cardNumbers = {"4539876543211234", "5298765432109876", "6123456789012345", "4111111111111111"};
 
