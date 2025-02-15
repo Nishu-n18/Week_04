@@ -1,9 +1,8 @@
-package org.example;
+package com.capgeminitraining.day5.regex;
 
 import java.util.regex.*;
-import java.util.*;
 
-public class EmailExtractor {
+public class EmailExtract {
     public static void main(String[] args) {
         String text = "Contact us at support@example.com and info@company.org for more details. Also, reach out at test123@gmail.com.";
 
