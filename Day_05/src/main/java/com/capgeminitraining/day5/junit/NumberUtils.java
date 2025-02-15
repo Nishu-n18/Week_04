@@ -1,4 +1,4 @@
-package org.example.JunitQuestions;
+package com.capgeminitraining.day5.junit;
 
 public class NumberUtils {
     public static boolean isEven(int number) {
