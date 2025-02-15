@@ -1,6 +1,6 @@
-package org.example.JunitQuestionsTest;
+package com.junittesting;
 
-import org.example.JunitQuestions.ListManager;
+import com.capgeminitraining.day5.junit.ListManager;
 import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.List;
