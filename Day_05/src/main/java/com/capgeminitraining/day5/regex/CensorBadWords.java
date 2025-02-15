@@ -1,6 +1,6 @@
-package org.example;
+package com.capgeminitraining.day5.regex;
 
-public class CensorBadWords {
+public class CensorBadWords{
     public static void main(String[] args) {
         String input = "This is a damn bad example with some stupid words.";
 
