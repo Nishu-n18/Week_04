@@ -1,4 +1,4 @@
-package org.example.Annotations;
+package com.capgeminitraining.day6.Annotations;
 
 // Step 1: Define a Class with an Old and a New Method
 class LegacyAPI {
