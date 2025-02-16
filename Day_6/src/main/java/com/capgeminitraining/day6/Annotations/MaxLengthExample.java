@@ -1,5 +1,4 @@
-package com.ca
-pgeminitraining.day6.Annotations;
+package com.capgeminitraining.day6.Annotations;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
