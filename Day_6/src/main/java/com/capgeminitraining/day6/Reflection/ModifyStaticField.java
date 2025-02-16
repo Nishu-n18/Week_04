@@ -1,4 +1,4 @@
-package org.example.Reflection;
+package com.capgeminitraining.day6.Reflection;
 
 import java.lang.reflect.Field;
 
